@@ -7,7 +7,7 @@
 
 ### Spesifikasi Perangkat
 
-ram 16 gb
-os window 11
-cpu intel 
-gpu nvdia
+* **pc gaming ryzen 4000**
+* **hape Techno g26**
+* **iphone 18**
+* **playstion 5**
