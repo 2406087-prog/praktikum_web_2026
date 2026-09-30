@@ -11,3 +11,11 @@
 * **hape Techno g26**
 * **iphone 18**
 * **playstion 5**
+
+### pembalab motogp 
+
+* **Nama:** [Marq marquez]
+* **Nomor:** [93]
+* **motor:** [Ducati]
+* **pabrikan/satelit** Pabrikan
+* **Pembalap** Motogp
