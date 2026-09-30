@@ -5,3 +5,9 @@
 * **Kelas/Prodi:** Teknik Informatika - ITG
 * **Kode MK:** IFRWP5151
 
+### Spesifikasi Perangkat
+
+ram 16 gb
+os window 11
+cpu intel 
+gpu nvdia
