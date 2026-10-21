@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 4 - Interactive Portfolio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Portfolio Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="kontak.html">Hubungi Saya</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="project_4.html">Project_4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <!-- Section Form Tambah Proyek -->
+        <section id="form-proyek">
+            <h2>Tambah Proyek Baru</h2>
+            <form id="project-form">
+                <p>
+                    <label for="project-title">Judul Proyek:</label><br>
+                    <input type="text" id="project-title" placeholder="Contoh: Aplikasi Sistem Kasir" required>
+                </p>
+                <p>
+                    <label for="project-category">Kategori:</label><br>
+                    <select id="project-category">
+                        <option value="Web App">Web App</option>
+                        <option value="Mobile App">Mobile App</option>
+                        <option value="Desktop App">Desktop App</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="project-budget">Estimasi Anggaran (Rp):</label><br>
+                    <input type="number" id="project-budget" placeholder="1000000" min="1" required>
+                </p>
+                <p>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="project-status"> Sudah Selesai
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Tambah Proyek</button>
+                </p>
+            </form>
+        </section>
+
+        <!-- Section Statistik -->
+        <section id="statistik">
+            <h2>Ringkasan Statistik</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Proyek</h3>
+                    <p id="stat-total-projects">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Anggaran</h3>
+                    <p id="stat-total-budget">Rp 0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Selesai Dikerjakan</h3>
+                    <p id="stat-completed-projects">0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section List & Filter -->
+        <section id="pencarian">
+            <h2>Daftar Proyek & Pencarian</h2>
+            <p>
+                <label for="search-input">Cari Proyek:</label><br>
+                <input type="text" id="search-input" placeholder="Cari nama proyek secara real-time...">
+            </p>
+            <div class="filter-group">
+                <button type="button" class="btn-filter active" data-category="Semua">Semua</button>
+                <button type="button" class="btn-filter" data-category="Web App">Web App</button>
+                <button type="button" class="btn-filter" data-category="Mobile App">Mobile App</button>
+                <button type="button" class="btn-filter" data-category="Desktop App">Desktop App</button>
+                <button type="button" class="btn-filter" data-category="UI/UX Design">UI/UX Design</button>
+            </div>
+            <br>
+            <div id="project-list"></div>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Status Pekerjaan</h3>
+        <p>Saat ini terbuka untuk proyek freelance dan kolaborasi pengembangan web.</p>
+    </aside>
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Teknik Informatika ITG - Dzikri. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
